@@ -5,3 +5,17 @@ Elements and Tags
 
 2. What are the three parts of an HTML element?
 - Opening tag, content, closing tag
+
+HTML Boilerplate
+
+1. What is the purpose of the doctype declaration?
+- To tell the browser what version of HTML it should use to render the document
+
+2. What is the HTML element?
+- The root element of the web page.
+
+3. What is the purpose of the head element?
+- Contains all the meta information, title tag, stylesheets, and scripts.
+
+4. WHat is the purpose of the body element?
+- Contains all the information that will be displayed to the web page
