@@ -37,3 +37,12 @@ Working with Text
     - they are sibling elements
     How do you create HTML comments?
     - with <!-- -->
+
+Lists
+
+    What HTML tag is used to create an unordered list?
+    - ul + li tag
+    What HTML tag is used to create an ordered list?
+    - ol + li tag
+    What HTML tag is used to create list items within both unordered and ordered lists?
+    - li tag
