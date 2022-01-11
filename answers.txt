@@ -19,3 +19,21 @@ HTML Boilerplate
 
 4. WHat is the purpose of the body element?
 - Contains all the information that will be displayed to the web page
+
+Working with Text
+    How do you create a paragraph in HTML?
+    - with the p tag
+    How do you create a heading in HTML?
+    - with h1 to h6 tag
+    How many different levels of headings are there and what is the difference between them?
+    - six, difference in emphasis and size
+    What element should you use to make text bold and important?
+    - strong tag
+    What element should you use to make text italicized to add emphasis to it?
+    - em tag
+    What relationship does an element have with any nested elements within it?
+    - an element becomes a parent when it contains a child element inside it
+    What relationship do two elements have if they are at the same level of nesting?
+    - they are sibling elements
+    How do you create HTML comments?
+    - with <!-- -->
