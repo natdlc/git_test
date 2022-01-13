@@ -46,3 +46,23 @@ Lists
     - ol + li tag
     What HTML tag is used to create list items within both unordered and ordered lists?
     - li tag
+
+links and images
+
+    What element is used to create a link?
+    - a element
+    What is an attribute?
+    - an attribute is something that gives an element extra definitions
+    What attribute tells links where to go to?
+    - href
+    What is the difference between an absolute and relative link?
+    - absolute link goes to pages of a different website, relative goes to pages of your own website
+    Which element is used to display an image?
+    - img
+    What two attributes do images always need to have?
+    - src and alt
+    How do you access a parent directory in a filepath?
+    - ../
+    What are the four main image formats that you can use for images on the web?
+    - jpg=best for photos, gif=best for animations, png=best for icons and diagrams, svg=best for responsive design
+
