@@ -66,3 +66,23 @@ links and images
     What are the four main image formats that you can use for images on the web?
     - jpg=best for photos, gif=best for animations, png=best for icons and diagrams, svg=best for responsive design
 
+css foundations
+
+
+    What are the main differences between external, internal, and inline CSS?
+    - external allows you to link a separate .css file in your html file through a single line, internal lets you add the style declarations inside the html file, and inline lets you style your elements inside of the elements themselves
+
+    What is the syntax for class and ID selectors?
+    - class="" ,, .class-name {} ,, id="" ,, #id-name {}
+
+    How would you apply a single rule to two different selectors?
+    - .class1, .class2 {}
+    
+    Given an element that has an id of title and a class of primary, how would you use both attributes for a single rule?
+    - #title.primary
+
+    What does the descendant combinator do?
+    - lets you select a specific child based on ancestral relationships from the designated child up to the first ancestor
+
+    Between a rule that uses one class selector and a rule that uses three type selectors, which rule has the higher specificity?
+    - class selector
