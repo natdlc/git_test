@@ -86,3 +86,14 @@ css foundations
 
     Between a rule that uses one class selector and a rule that uses three type selectors, which rule has the higher specificity?
     - class selector
+
+Inspecting HTML and CSS
+
+    How do you select a specific element on your page with your browser’s developer tools?
+    - ctrl+shift+c
+
+    What does a strikethrough in a CSS element mean in your browser’s developer tools?
+    - style that is overwritten
+    
+    How do you change CSS in real time on specific elements of a web page with your browser’s developer tools?
+    - ctrl+shift+c > hover and click on the element > click on the inside of the element.style in styles pane > enter css property and value
