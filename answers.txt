@@ -97,3 +97,23 @@ Inspecting HTML and CSS
     
     How do you change CSS in real time on specific elements of a web page with your browser’s developer tools?
     - ctrl+shift+c > hover and click on the element > click on the inside of the element.style in styles pane > enter css property and value
+
+The Box Model
+
+    From inside to outside, what is the order of box-model properties?
+    - content > padding > border > margin
+    
+    What does the box-sizing CSS property do?
+    - changes the box model to the alternative one
+
+    What is the difference between the standard and alternative box model?
+    - standard model adds the padding and border sizes to the specified width and height, while alternative model restricts the size of the entire box to the specified width and height
+
+    Would you use margin or padding to create more space between 2 elements?
+    - margin
+
+    Would you use margin or padding to create more space between the contents of an element and its border?
+    - padding
+
+    Would you use margin or padding if you wanted two elements to overlap each other?
+    - negative margin
