@@ -124,12 +124,19 @@ Block and Inline
     - block element can have specified width and height, takes up the whole width of the viewport, padding and margin are respected, and will always create a new line, inline elements does not create a new line and will always be on the same line as other inline elements or block elements.
 
     What is the difference between an inline element and an inline-block element?
-    - inline elements will overlap with the contents and does not respect top and bottom margins and width and height cannot be adjusted, while inline-block elements can have their width and height adjusted, and will always respect all angles of padding and margin.
+    - inline elements will overlap with the contents and does not respect top and bottom margins and padding, and width and height cannot be adjusted, while inline-block elements can have their width and height adjusted, and will always respect all sides of padding and margin.
 
     Is an h1 block or inline?
+    - block
+
     Is button block or inline?
+    - inline
+
     Is div block or inline?
+    - block
+
     Is span block or inline?
+    - inline
 
 
 
