@@ -138,6 +138,13 @@ Block and Inline
     Is span block or inline?
     - inline
 
+Introduction to Flexbox
+
+    What’s the difference between a flex container and a flex item?
+    - flex container is the parent element which has the display: flex property and value, flex item is the child/children element/s of the flex container element 
+
+    How do you create a flex item?
+    - put display: flex on a parent element with a child/children element/s
 
 
 
