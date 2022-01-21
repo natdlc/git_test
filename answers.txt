@@ -146,6 +146,10 @@ Introduction to Flexbox
     How do you create a flex item?
     - put display: flex on a parent element with a child/children element/s
 
+Growing and Shrinking
+
+    What are the 3 values defined in the shorthand flex property (e.g. flex: 1 1 auto)?
+    - flex-grow, flex-shrink, flex-basis
 
 
 
