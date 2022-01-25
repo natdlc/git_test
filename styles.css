@@ -6,36 +6,12 @@
 }
 
 .p1 {
-    border: 1px solid red;
-
-    display: inline-flex;
-    /* flex-direction: column; */
-    width: 300px;
-    height: 100px;
+    background-color: burlywood;
+    display: flex;
+    flex-flow: column;
 }
 
 .c1 {
-    background-color: lightblue;
-    border: 1px solid blue;
-
-    width: 50px;
-    flex: 1;
-}
-
-
-.p2 {
-    border: 1px solid red;
-
-    display: inline-flex;
-    flex-direction: column;
-    width: 300px;
-    height: 100px;
-}
-
-.c2 {
-    background-color: lightblue;
-    border: 1px solid blue;
-
-    width: 50px;
-    flex: 1;
+    border: 1px solid rgb(175, 175, 175);
+    text-align: center;
 }
