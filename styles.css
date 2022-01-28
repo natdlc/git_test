@@ -1,31 +1,23 @@
-* {
+/* * {
     padding: 0;
     margin: 0;
-    font-size: 250px;
+    font-size: 150px;
     box-sizing: border-box;
-}
+} */
 
-.p1 {
-    background-color: burlywood;
+.container {
+    height: 100vh;
     display: flex;
+    gap: 25px;
 }
 
-.c1 {
-    background: lightblue;
-    text-align: center;
-}
-
-/* */
-
-.p1 {
-    flex-wrap: wrap;
-    justify-content: space-around;
+[class ^="box-"] {
+    width: 140px;
+    height: 140px;
+    background-color: skyblue;
+    border: 2px solid black;
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 30px;
-}
-
-.c1 {
-    min-width: 450px;
-    flex-basis: 200px;
-    margin: 30px;
 }
