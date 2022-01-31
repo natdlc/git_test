@@ -1,2 +1,3 @@
-let n = 1;
-console.log(n);
+let x = NaN;
+let y = 5;
+console.log(typeof(x+y));

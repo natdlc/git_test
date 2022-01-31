@@ -178,3 +178,45 @@ Alignment
     What’s the difference between justify-content: space-between and justify-content: 
     space-around?
     - justify-content: space-between leaves no space at both edge of the container, space-around leaves half of the space between items on both edges
+
+
+JS Fundamentals 1
+
+    Name the three ways to declare a variable?
+    - var, let, const
+    
+    Which of the three variable declarations should you avoid and why?
+    - var, since it is an old feature and has a slightly different effect compared to let
+
+    What rules should you follow when naming variables?
+    - alphanumeric and $ _ are available, no numbers at start of variable name, variables should be descriptive and useful for context purposes, camelCase is used for 1+ word variables, variables are case-sensitive, reserved names will never work as variable names
+
+    What should you look out for when using the + operator with numbers and strings?
+    - binary + sign concatenates strings and numbers, if there are three or more operands then the operation will be run from left to right.
+
+    How does the % operator work?
+    - divides two operands, then returns the remainder
+
+    Explain the difference between == and ===.
+    - === takes data types into account when comparing, == doesn't
+
+    When would you receive a NaN result?
+    - when doing arithmetic with a non-numeric string (except +), or when used as a value for an arithmetic operation with other operands as numbers
+
+    How do you increment and decrement a number?
+    - ++ or --
+
+    Explain the difference between prefixing and post-fixing increment/decrement operators.
+    - prefixing returns the new value, post-fixing returns the old value. if the result of increment/decrement isn't used, there's no difference
+
+    What is operator precedence and how is it handled in JS?
+    - operator precedence is established based on the mathematical rules of operations.
+
+    How do you access developer tools and the console?
+    - f12 > console
+
+    How do you log information to the console?
+    - console.log()
+
+    What does unary plus operator do to string representations of integers? 
+    - converts them to numeric values
