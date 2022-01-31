@@ -220,3 +220,6 @@ JS Fundamentals 1
 
     What does unary plus operator do to string representations of integers? 
     - converts them to numeric values
+
+JS Fundamentals 2
+
