@@ -1,17 +1,17 @@
 /* 
 
-2
-alert(1)
-null
-alert(2)
-3
+o 2
+x alert(1)
+o null
+x alert(2)
+o 3
 
 
 */
 
 // let age = 91;
 
-// if (age >= 14 && age <= 90) {
+// o if (age >= 14  && age <= 90) {
 //     console.log("eligible");
 // }
 
@@ -23,9 +23,10 @@ alert(2)
 /* ~~~ */
 
 
-// if (!(age >= 14 && age <= 90)) {
+// o if (!(age >= 14 && age <= 90)) {
 //     console.log("not eligible");
-// }
+// } incomplete
+
 
 
 /* ~~~ */
@@ -33,9 +34,9 @@ alert(2)
 
 /* 
 
-true first
-false no alert
-true third
+o true first
+o false no alert
+o true third
 
 */
 
