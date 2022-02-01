@@ -223,3 +223,69 @@ JS Fundamentals 1
 
 JS Fundamentals 2
 
+    What are the eight data types in JavaScript?
+    - number, BigInt, string, boolean, object, symbol, null, undefined
+
+    Which data type is NOT primitive?
+    - object
+
+    What is the relationship between null and undefined?
+    - null signifies that a variable is empty, undefined indicates that a variable is not assigned a value;
+
+    What is the difference between single, double, and backtick quotes for strings?
+    - single and double quotes are similar, backtick quotes are used for including variables and expressions inside strings in the form of ${} and new lines are automatically detected as they are typed in the source code in contrast to single and double quotes where you need to type \n to indicate a new line.
+    
+    What is the term for embedding variables/expressions in a string?
+    - template literal
+
+    Which type of quote lets you embed variables/expressions in a string?
+    - backtick quotes
+
+    How do you embed variables/expressions in a string?
+    - ${} 
+
+    How do you escape characters in a string?
+    - \name
+
+    What are methods?
+    - feature for a data type to be manipulated like with strings
+
+    What is the difference between slice/substring/substr?
+    - slice can have positive and negative values, substring can only have positives, substr specifies the length of the extracted part via the second numerical argument
+
+    What are the three logical operators and what do they stand for?
+    - && AND, || OR, ! NOT 
+
+    What are the comparison operators?
+    - == === !== != >= <= > <
+
+    What are truthy and falsy values?
+    - truthy values are values that will return true when evaluated as boolean, falsy values are values that return false when evaluated as boolean
+
+    What are the falsy values in JavaScript?
+    - null, undefined, 0, false, NaN, '' (empty string)
+
+    What are conditionals?
+    - if/else, switch case, code blocks that run depending on the boolean expression or value condition when evaluated.
+
+    What is the syntax for an if/else conditional?
+    - if (condition) { run code } else { run code }
+
+    What is the syntax for a switch statement?
+    - switch (value) {
+        case 1: 
+            code here
+            break;
+        case 2:
+            code here
+            break;
+        default:
+            code here
+            break;
+    }
+
+    What is the syntax for a ternary operator?
+    - condition ? value returned for true : value returned for false
+
+    What is nesting?
+    - when you put an if block inside an if block, or when you put a switch block inside a switch block.
