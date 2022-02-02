@@ -289,3 +289,17 @@ JS Fundamentals 2
 
     What is nesting?
     - when you put an if block inside an if block, or when you put a switch block inside a switch block.
+
+JS Dev tools
+
+    How do you open developer tools?
+    - ctrl shift c / ctrl shift j / ctrl shift i / f12 / right click > inspect
+
+    How do you change screen size of a website using developer tools?
+    - dev tools > toggle device toolbar icon > adjust size from right and bottom and right corner bars
+
+    What is a breakpoint?
+    - breakpoint is a feature in debugging that pauses the code being run in a specific line to examine the values at that point in time
+
+    How do you set a breakpoint?
+    - clicking a number from the left of the script or element line, toggling event listener breakpoints, entering 'debugging;' code in the source
