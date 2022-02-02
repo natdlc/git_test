@@ -1,36 +1,23 @@
-let loginAns = prompt('Greetings! Would you like to log in? Y/N');
+testFunc();
+console.log(testFunc2());
 
-loginGreet(loginAns);
+// function declaration
 
-function loginGreet(ans='') {
-    if (ans === 'y' || ans === 'Y') {
-        let username = prompt('Enter username');
-        enterUsername(username);
-    }
-
-    else {
-        alert('login cancelled');
-    }
+function testFunc() {
+    console.log('i am a function DECLARED!');
 }
 
-function enterUsername(uname = '') {
-    if (uname === 'oriusprime') {
-        let password = prompt('Enter password');
-        enterPassword(password);
-    }
+// function expression
 
-    else {
-        alert('sorry, no such username exists');
-    }
-}
+let testFunk = function () {
+    console.log('i am a function EXPRESSED!');
+};
 
-function enterPassword(upass = '') {
-    if (upass === '12three') {
-        alert('You\'re logged in!');
-    }
+// function declaration inside a function declaration 
 
-    else {
-        alert('invalid password, please try again');
-        loginGreet(loginAns);
+function testFunc2() {
+    let x;
+    return x = function () {
+        return 'yo i am inside testFunc2!!!';
     }
 }
