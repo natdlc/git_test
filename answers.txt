@@ -347,3 +347,14 @@ JS Problem Solving
     What are the advantages of breaking a problem down and solving the smaller problems?
     - focusing down on simpler problems stemmed from the big problem allow for an easier problem solving 
 
+JS Understanding Errors
+
+    What are three reasons why you may see a TypeError?
+    - the data type is not being used as intended, when an function or operator does not receive the expected data type, when attempting to modify a value that cannot be changed
+
+    What is the key difference between an error and a warning?
+    - an error stops the program from running or stops in the middle of the script, a warning displays information that might be insightful to the programmer
+
+    What is one method you can use to resolve an error?
+    - debugging
+
