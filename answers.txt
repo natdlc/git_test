@@ -346,3 +346,4 @@ JS Problem Solving
 
     What are the advantages of breaking a problem down and solving the smaller problems?
     - focusing down on simpler problems stemmed from the big problem allow for an easier problem solving 
+
