@@ -30,9 +30,10 @@
 
         //3
         function capitalize(str) {
-            return str.replace(str.charAt(0), str.charAt(0).toUpperCase());
+            return str.charAt(0).toUpperCase() + str.slice(1, str.length).toLowerCase();
         }
-        console.log(capitalize('nathanel')); //Nathanel
+        console.log(capitalize('NATHANEL')); //Nathanel
+        console.log(capitalize('natHaneL')); //Nathanel
 
         //4
         function lastLetter(str) {
