@@ -333,9 +333,16 @@ JS Problem Solving
     - to identify what variables are involved and what methods are needed when planning
 
     What can you do to help get a clearer understanding of the problem?
-    - 
+    - write on a paper, explain to someone else in plain english, make a diagram
     
     What are some of the things you should do in the planning stage of the problem solving process?
+    - answer questions like what are the inputs, what are the outputs, is there an interface, what is/are the process/es to arrive at the output
+
     What is an algorithm?
+    - a single or series of calculations and commands that the computer will put into action to have the desired output
+
     What is pseudocode?
+    - pseudocode are sentences made by the programmer to outline the process to be done in the program, eventually translated into code
+
     What are the advantages of breaking a problem down and solving the smaller problems?
+    - focusing down on simpler problems stemmed from the big problem allow for an easier problem solving 
