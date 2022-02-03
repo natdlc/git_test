@@ -303,3 +303,23 @@ JS Dev tools
 
     How do you set a breakpoint?
     - clicking a number from the left of the script or element line, toggling event listener breakpoints, entering 'debugging;' code in the source
+
+JS FUndamentals 3
+
+    What are functions useful for?
+    - functions are useful for organizing code actions into a single block, and calling on them in the main code flow only when needed. Functions saves time by eliminating the need to recreate same code over and over
+
+    How do you invoke a function?
+    - functionName();
+
+    What are anonymous functions?
+    - functions with no name
+
+    What is function scope?
+    - function scope is when a variable is declared inside a function, that variable is only available for reference inside that function. global variables can be used inside functions.
+
+    What are return values?
+    - return values are what code blocks or usually functions give back after being evaluated or called
+
+    What are arrow functions?
+    - arrow functions is a new type of syntax for functions that improves code readability and offers more use cases for function expressions
