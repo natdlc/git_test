@@ -323,3 +323,19 @@ JS FUndamentals 3
 
     What are arrow functions?
     - arrow functions is a new type of syntax for functions that improves code readability and offers more use cases for function expressions
+
+JS Problem Solving
+
+    What are the three stages in the problem solving process?
+    - Understand the problem, plan, pseudocode
+
+    Why is it important to clearly understand the problem first?
+    - to identify what variables are involved and what methods are needed when planning
+
+    What can you do to help get a clearer understanding of the problem?
+    - 
+    
+    What are some of the things you should do in the planning stage of the problem solving process?
+    What is an algorithm?
+    What is pseudocode?
+    What are the advantages of breaking a problem down and solving the smaller problems?
