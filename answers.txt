@@ -358,3 +358,13 @@ JS Understanding Errors
     What is one method you can use to resolve an error?
     - debugging
 
+JS Clean Code
+
+    Why is it important to write clean code?
+    - to easily recall what the codes are written for when one comes back to it after a while, to make sure that other developers can easily pick up on what the codes are all about.
+
+    Name 5 clean code principles previously mentioned
+    - revise logic before coding by pseudocode or diagrams or other methods possible, write effective comments, avoid abusing comments, break large functions into smaller pieces, make structure obvious through proper element or variable naming, use indents wisely, treat changes with caution
+
+    What is the difference between good comments and bad comments?
+    - comments only become good ones when you've exhausted all possible methods to make the code as easy to read as possible without comments, comments become bad when they are unnecessary, blames other developers, states the obvious role of the code, overexplains, or purposeless block of code that has been commented out without being removed after deployment.
