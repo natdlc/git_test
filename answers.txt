@@ -368,3 +368,5 @@ JS Clean Code
 
     What is the difference between good comments and bad comments?
     - comments only become good ones when you've exhausted all possible methods to make the code as easy to read as possible without comments, comments become bad when they are unnecessary, blames other developers, states the obvious role of the code, overexplains, or purposeless block of code that has been commented out without being removed after deployment.
+
+JS Fundamentals 4
