@@ -370,3 +370,33 @@ JS Clean Code
     - comments only become good ones when you've exhausted all possible methods to make the code as easy to read as possible without comments, comments become bad when they are unnecessary, blames other developers, states the obvious role of the code, overexplains, or purposeless block of code that has been commented out without being removed after deployment.
 
 JS Fundamentals 4
+
+    What is an array?
+    - array is a collection of values enclosed in brackets and separated by comma
+
+    What are arrays useful for?
+    - arrays are useful for containing values of different data types in a single variable, and manipulate them using array and string methods
+
+    How do you access an array element?
+    - arrayVariable[elementIndex]
+
+    How do you change an array element?
+    - arrayVariable[elementIndex] = newData
+
+    What are some useful array properties?
+    - arrays are objects, there can be arrays in an array, arrays can be looped over
+
+    What are some useful array methods?
+    - array.length, array.join, array.splice, array.push
+
+    What are loops useful for?
+    - for finding or manipulating a specific value in the array especially if it contains numerous elements
+
+    What is the break statement?
+    - break statement allows a loop to exit from the code block
+
+    What is the continue statement?
+    - continue statement stops the current iteration in the loop and ignores the next lines of codes and runs the next iteration
+
+    What is the advantage of writing automated tests?
+    - eliminates the need to test a code multiple times manually
