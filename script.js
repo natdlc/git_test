@@ -1,7 +1,7 @@
-const leapYears = function(year) {
-    if (year % 4 === 0 && year % 100 !== 0 && year % 400 === 0) {
-        console.log('leap year');
-    }
-};
-
-leapYears(1800);
+const container = document.querySelector('.container');
+const child2 = document.querySelector('.box-2');
+let newDiv = document.createElement('div');
+newDiv.classList.add('new');
+newDiv.textContent = 'hello';
+container.insertBefore(newDiv, child2);
+container.removeChild(child2);
