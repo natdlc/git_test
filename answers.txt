@@ -400,3 +400,53 @@ JS Fundamentals 4
 
     What is the advantage of writing automated tests?
     - eliminates the need to test a code multiple times manually
+
+JS DOM and Events
+
+    What is the DOM?
+    - Document object model: represents the elements of the HTML in a tree-like structure that can be manipulated using JavaScript.
+
+    How do you target the nodes you want to work with?
+    - document.querySelector('elementtag') / document.querySelectorAll('elementtag');
+
+    How do you create an element in the DOM?
+    - document.createElement('elementtag');
+
+    How do you add an element to the DOM?
+    - parentNode.appendChild(child); / parentNode.insertBefore(newNode, referenceNode);
+
+    How do you remove an element from the DOM?
+    - parentNode.removeChild(childToRemove);
+
+    How can you alter an element in the DOM?
+    - element.style / element.textContent
+
+    When adding text to a DOM element, should you use textContent or innerHTML? Why?
+    - textContent to ensure security. innerHTML can be manipulated and vulnerable to js injection
+
+    Where should you include your JavaScript tag in your HTML file when working with DOM nodes?
+    - at the end of the body tag, or in the head element with the defer attribute
+
+    How do “events” and “listeners” work?
+    - events are actions or activities triggered in the browser detected by the DOM, listeners are specific actions that can be linked to elements to manipulate them with javascript once the action is detected by the browser.
+
+    What are three ways to use events in your code?
+    - inline with the element, element.onclick property, or addEventListener function
+
+    Why are event listeners the preferred way to handle events?
+    - avoid clutter in html, not be restricted by the unique onclick property, and be more flexible with manipulations
+
+    What are the benefits of using named functions in your listeners?
+    - makes for a cleaner code
+
+    How do you attach listeners to groups of nodes?
+    - divs = document.querySelectorAll('element') >> divs.forEach(div => div.addEventListener('click', actionFunction));
+
+    What is the difference between the return values of querySelector and querySelectorAll?
+    - querySelector returns the node properties and the first match of selector, querySelectorAll returns a node list containing references to all of the selector matches
+
+    What does a “nodelist” contain?
+    - references to all of the selector matches
+
+    Explain the difference between “capture” and “bubbling”.
+    - capture detects the action made on an element from top to bottom, bubbling detects the action made on an element from bottom to top
