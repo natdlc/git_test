@@ -450,3 +450,17 @@ JS DOM and Events
 
     Explain the difference between “capture” and “bubbling”.
     - capture detects the action made on an element from top to bottom, bubbling detects the action made on an element from bottom to top
+
+JS Fundamentals 5
+
+    What is the difference between objects and arrays?
+    - objects are collection of data with a key:value structure, arrays are collection of data referenced with numbered indexes
+
+    How do you access object properties?
+    - dot notation (obj.property) or brackets (obj[property])
+
+    What is Array.prototype.map() useful for?
+    - map scans the array item by item and returns an array based on any changes made on any items or criteria
+    
+    What is Array.prototype.reduce() useful for?
+    - reduce is useful for reducing the items in an array into one single value, while giving the ability to manipulate each item
