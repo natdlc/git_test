@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const people = [
     {
       name: "Carly",
@@ -31,7 +30,6 @@ function findOldest(people) {
 }
 
 console.log(findOldest(people));
-=======
 function Cat(name, breed, color) {
     this.name = name;
     this.breed = breed;
@@ -40,4 +38,3 @@ function Cat(name, breed, color) {
 }
 
 let cat1 = new Cat('kid', 'orange tabby', 'yellow white');
->>>>>>> 8c54ae6fba95e15f812ecc13b3a0b685ecdbed91
