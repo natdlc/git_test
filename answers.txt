@@ -464,3 +464,17 @@ JS Fundamentals 5
     
     What is Array.prototype.reduce() useful for?
     - reduce is useful for reducing the items in an array into one single value, while giving the ability to manipulate each item
+
+Intro to Back-End 
+
+    What is back-end development?
+    - back end development describes the processes involved in maintaining all actions done behind the scenes on the web, such as manipulating databases, responding to client requests, and communicating with other back end computers
+
+    How many parts does the backend consist of?
+    - three
+
+    Name each part of the backend.
+    - a server, an api/app, databases
+
+    Where does the backend store its data?
+    - databases in servers
