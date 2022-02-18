@@ -489,3 +489,22 @@ Intro to Frameworks
 
     Describe the process of choosing a framework.
     - Factors are: what programming language you need to use it for, ETA for project completion
+
+--- Full stack (node) ---
+
+Emmet
+
+    Why should you use Emmet?
+    - to be more efficient in writing html / css
+
+    What are some useful Emmet abbreviations?  
+    - . > {} [] + () # * $# 
+
+    What syntax would you use to create this element <p class="text"></p>?
+    - p.text
+
+    What syntax expands to an element with a child element inside of it? For example: <div><p></p></div>
+    - div>p
+
+    What syntax would you use to create three elements that have the same class name?
+    - .items*3
