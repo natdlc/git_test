@@ -508,3 +508,23 @@ Emmet
 
     What syntax would you use to create three elements that have the same class name?
     - .items*3
+
+Form Basics
+
+    Explain what the form element is for and what two attributes it should always include.
+    - form element represents a section in the html to be filled with controls where users can input data for backend processing. action and method are two attributes it always has, with action being the url and method being the process needed for the backend to receive.
+
+    Explain what form controls are at a high level.
+    - form controls are a collection of input elements with corresponding labels that can be interacted with by users. they can be checkboxes, radios, text fields, numbers, ranges, and more. 
+
+    What is the name attribute for?
+    - name attribute is the name of the variable that will be sent to the backend
+
+    What are the three most common form controls you can use for allowing users to select predefined options?
+    - checkboxes, radios, dropdowns
+
+    What are the three types of buttons in html?
+    - submit, reset, button(generic)
+
+    What are the two most challenging aspects of styling forms?
+    - they have default styles and some form controls are tricky and impossible to style
