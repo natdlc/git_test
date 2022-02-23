@@ -528,3 +528,20 @@ Form Basics
 
     What are the two most challenging aspects of styling forms?
     - they have default styles and some form controls are tricky and impossible to style
+
+Form Validation
+
+    What does the required validation do?
+    - stops form submission when the field or value is empty
+
+    What validations can you use for checking text length?
+    - minlength, maxlength
+
+    How can you validate the minimum and maximum of numeric inputs?
+    - min, maximum
+
+    What can you use the pattern validation for?
+    - emails, passwords, usernames, phones
+
+    What pseudo css selectors are available for styling valid and invalid inputs?
+    - :valid, :invalid, :in-range, :out-of-range 
