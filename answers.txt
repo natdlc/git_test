@@ -545,3 +545,14 @@ Form Validation
 
     What pseudo css selectors are available for styling valid and invalid inputs?
     - :valid, :invalid, :in-range, :out-of-range 
+
+SVG
+
+    What is the xmlns attribute?
+    - XML name space, to ensure compatibility with other browsers
+
+    What are some situations where you wouldn’t want to use SVG?
+    - for realistic high def photos
+
+    What are the benefits of “inlining” your SVGs? What are the drawbacks?
+    - inlining svgs allows for flexible manipulation of the image, drawbacks are becoming uncacheable, cluttered in code, delays html from loading
