@@ -570,3 +570,8 @@ Tables
 
     What is the scope attribute?
     - defines row and column headers for the table
+
+Default styles
+
+    Why would you want to use a CSS reset?
+    - to ensure that the styles visualized by the developer is applied smoothly and avoid unforeseen tweaks
