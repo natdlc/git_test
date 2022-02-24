@@ -556,3 +556,17 @@ SVG
 
     What are the benefits of “inlining” your SVGs? What are the drawbacks?
     - inlining svgs allows for flexible manipulation of the image, drawbacks are becoming uncacheable, cluttered in code, delays html from loading
+
+Tables
+
+    What is a table?
+    - table creates 2 dimensional diagrams for data organization
+
+    Why is it a bad idea to use HTML Tables for page layout?
+    - problems occur with aligning elements, inconsistent sizing relative to contents, code clutters to achieve simple layouts
+
+    What are caption elements useful for?
+    - for providing additional information about the table as well as accessibility purposes
+
+    What is the scope attribute?
+    - defines row and column headers for the table
