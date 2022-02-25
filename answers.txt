@@ -575,3 +575,14 @@ Default styles
 
     Why would you want to use a CSS reset?
     - to ensure that the styles visualized by the developer is applied smoothly and avoid unforeseen tweaks
+
+CSS Units
+
+    Why would you want to use em or rem for font-size instead of px?
+    - if we want the element's font size to be relative to the parent's or root's font size
+
+    What are some instances where you might want to use vh and vw
+    - if we want the element's property's size to be relative to the viewport's width or height
+
+    What are some instances where you might want to use px instead of a relative unit?
+    - if we want to ensure that an element's property size is of a fixed unit
