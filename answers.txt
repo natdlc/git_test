@@ -586,3 +586,17 @@ CSS Units
 
     What are some instances where you might want to use px instead of a relative unit?
     - if we want to ensure that an element's property size is of a fixed unit
+
+More Text styles
+
+    What are the 2 ways to add fonts that are not installed on a user’s computer?
+    - download or import from the web
+
+    What is the ‘system font stack’ and why would you want to use it?
+    - to ensure that the default html font will be used as a last resort and rather have fallbacks for users such as the default font of their system's user interface
+
+    Which property would you use to increase or decrease the space between letters in a word?
+    - letter-spacing
+
+    Which property would you use to increase or decrease the space between lines in a paragraph?
+    - line-height
