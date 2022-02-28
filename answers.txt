@@ -646,3 +646,14 @@ Advanced selectors
 
     How could you select all classes that begin with thunder ?
     - [class^='thunder']
+
+Positioning
+
+    What is the difference between static and relative positioning?
+    - static is the default flow of the element in the page, relative is similar to static but allows for the element to have top right bottom left properties for adjusting its position relative to itself
+
+    What is absolute positioning useful for?
+    - for taking the element out of the normal flow of the document and positioning it anywhere in the page or relative to the ancestor
+
+    What is the difference between fixed and sticky positioning?
+    - fixed elements will be removed from the document flow and will stick to the same position no matter where you scroll in the page, sticky elements will remain in the document flow but will stick to the page when it reaches the edge of the viewport or depending on the defined position of when the element will stick
