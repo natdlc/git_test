@@ -1,22 +1,25 @@
-p {
-  width: 300px;
-  font-size: 32px;
-  /* display: flex; */
-  align-items: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-p::before {
-  /* display: block; */
-  content: '';
-  width: 1em;
-  height: 1em;
-  background-color: pink;
+body {
+  height: 200vh;
 }
 
-p::after {
-  /* display: none; */
-  content: '';
-  width: 1em;
-  height: 1em;
-  background-color: pink;
+.container {
+  margin-top: 100px;
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background-color: black;
+}
+
+.box {
+  top: 0;
+  position: sticky;
+  width: 50px;
+  height: 50px;
+  background-color: gold;
 }
