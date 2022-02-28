@@ -620,3 +620,29 @@ More CSS properties
 
     How would you use border-radius to make a circular element?
     -border-radius: 50%;
+
+Advanced selectors
+
+    What is the difference between the child combinator and the descendant combinator?
+    - descendant combinator selects all elements regardless of nesting level as long as it is inside the parent, child combinator selects the elements only if they are a one-level descendant of the parent
+
+    How does the syntax of pseudo-classes and pseudo-elements differ?
+    - pseudo classes use single colon while pseudo elements use double colons
+
+    Do pseudo-classes exist somewhere in HTML? Do pseudo-elements?
+    - pseudo classes exist in the html, pseudo elements aren't included in the html and DOM
+
+    Name two ways you could select every second child of an element, starting with the first.
+    - p:nth-child(2n+1), p:nth-of-type(2n+1)
+
+    What is the difference between div:first-child and div :first-child? What will each select?
+    - div:first-child selects all divs that are first childs of parent elements, while div :first-child selects all elements that are first childs of parent div elements regardless of nest level
+
+    What selector would you use to style a button a user is currently hovering over? How about one that is currently being clicked on?
+    - :hover for hovers, :active for click detection
+
+    How could you select all input elements with a type of text?
+    - input[type='text']
+
+    How could you select all classes that begin with thunder ?
+    - [class^='thunder']

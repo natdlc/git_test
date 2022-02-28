@@ -1,3 +1,22 @@
-div :only-of-type {
-  color: red;
+p {
+  width: 300px;
+  font-size: 32px;
+  /* display: flex; */
+  align-items: center;
+}
+
+p::before {
+  /* display: block; */
+  content: '';
+  width: 1em;
+  height: 1em;
+  background-color: pink;
+}
+
+p::after {
+  /* display: none; */
+  content: '';
+  width: 1em;
+  height: 1em;
+  background-color: pink;
 }
