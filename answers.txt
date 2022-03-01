@@ -657,3 +657,14 @@ Positioning
 
     What is the difference between fixed and sticky positioning?
     - fixed elements will be removed from the document flow and will stick to the same position no matter where you scroll in the page, sticky elements will remain in the document flow but will stick to the page when it reaches the edge of the viewport or depending on the defined position of when the element will stick
+
+CSS Functions
+
+    What are the four CSS math functions we covered above?
+    - calc(), min(), max(), clamp()
+
+    How do we use CSS math functions in our CSS?
+    - for responsive design, defining them with units or through basic math operations * + - /
+
+    How can CSS functions help make websites and applications more responsive?
+    - by defining them with upper and lower limits as well as ideal values, or combining the functions

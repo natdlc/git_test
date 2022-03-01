@@ -10,15 +10,12 @@ body {
 
 .container {
   margin-top: 100px;
-  position: relative;
-  width: 500px;
+  width: min(50%, 400px);
   height: 500px;
   background-color: black;
 }
 
 .box {
-  top: 0;
-  position: sticky;
   width: 50px;
   height: 50px;
   background-color: gold;
