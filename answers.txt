@@ -693,3 +693,17 @@ Browser Compatibility
 
     How are mobile browsers different on Apple mobile operating systems from Android?
     - apple only uses safari engine "WebKit" across all downloadable browsers (chrome, firefox, etc)
+
+Frameworks and Preprocessors
+
+    What are some advantages of using a CSS framework?
+    - Uniform code, easier to manage in a team, avoids the need for reinventing the wheel, allows for quick spin-ups of css items, saves time in coding
+
+    What are some disadvantages of using a CSS framework?
+    - less flexible coding, sometimes makes the site generic, performance issues
+
+    What are some advantages of using a CSS preprocessor?
+    - makes code DRY, easier to maintain
+
+    What are some disadvantages of using a CSS preprocessor?
+    - adds unnecessary complexity on codes, harder to debug, can produce large css files, performance issues for compiler
