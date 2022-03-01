@@ -668,3 +668,17 @@ CSS Functions
 
     How can CSS functions help make websites and applications more responsive?
     - by defining them with upper and lower limits as well as ideal values, or combining the functions
+
+Custom properties
+
+    How would you declare a custom property with a name of text-color?
+    - --text-color
+    
+    How would you access a custom property with a name of background-color?
+    - var(--background-color)
+
+    Where would you declare a custom property to have its scope be global and accessible by all other selectors?
+    - :root
+
+    Where would you declare a custom property so that a user’s theme setting from their OS or browser was taken into account?
+    - media query @media (prefers-color-scheme)
