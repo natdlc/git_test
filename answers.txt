@@ -682,3 +682,14 @@ Custom properties
 
     Where would you declare a custom property so that a user’s theme setting from their OS or browser was taken into account?
     - media query @media (prefers-color-scheme)
+
+Browser Compatibility 
+
+    What is the most used browser currently?
+    - Chrome
+
+    What was the original name of the first web browser?
+    - WorldWideWeb
+
+    How are mobile browsers different on Apple mobile operating systems from Android?
+    - apple only uses safari engine "WebKit" across all downloadable browsers (chrome, firefox, etc)
