@@ -707,3 +707,14 @@ Frameworks and Preprocessors
 
     What are some disadvantages of using a CSS preprocessor?
     - adds unnecessary complexity on codes, harder to debug, can produce large css files, performance issues for compiler
+
+Introduction to Grid
+
+    How can you use Flex to make a two-dimensional layout?
+    - flex-wrap
+
+    Why was CSS Grid introduced?
+    - to ease the process of creating two dimensional layouts
+
+    Which CSS layout module would you use to easily make equal sized items in a container?
+    = grid

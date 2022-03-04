@@ -12,6 +12,7 @@ body {
 }
 
 .parent {
+  margin: 10px;
   height: 400px;
   width: 700px;
   border: 1px solid red;
