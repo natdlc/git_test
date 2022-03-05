@@ -717,4 +717,21 @@ Introduction to Grid
     - to ease the process of creating two dimensional layouts
 
     Which CSS layout module would you use to easily make equal sized items in a container?
-    = grid
+    - grid
+
+Creating a Grid
+
+    How does an HTML element become a grid item?
+    - display: grid on a container element
+
+    What is the space between lines on the grid?
+    - grid lines
+
+    How do you set gutters (also known as alleys) in the grid?
+    - gap
+
+    Describe what happens when you have more content than defined tracks.
+    - implicit grid
+
+    How could you change the size for those undefined tracks?
+    - grid-auto-rows / grid-auto-columns

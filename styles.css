@@ -7,17 +7,19 @@
 .container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 310px);
-  grid-template-areas: 
+  grid-template-rows: auto;
+  grid-template-areas:
   "header header header header"
   "main main . sidebar"
   "footer footer footer footer";
   border: 1px solid red;
-  align-items: center;
+  row-gap: 10px;
+  /* align-items: center; */
 }
 
 .child {
   border: 1px solid black;
+  /* height: 150px; */
 }
 
 .child:first-child {
@@ -28,7 +30,7 @@
 .child:nth-child(2) {
   grid-area: main;
   background-color: lightcoral;
-  font-size: 18px;
+  /* font-size: 18px; */
 }
 
 .child:nth-child(3) {
