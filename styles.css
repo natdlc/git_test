@@ -1,60 +1,17 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-body {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.container {
-  margin: 30px;
+.wrapper {
   display: grid;
-  grid-template: repeat(5, 80px) / repeat(5, 80px);
-  background-color: lightsalmon;
-  grid-template-areas:
-  "living-room living-room living-room living-room living-room"
-  "living-room living-room living-room living-room living-room"
-  "bedroom bedroom bathroom kitchen kitchen"
-  "bedroom bedroom bathroom kitchen kitchen"
-  "closet closet bathroom kitchen kitchen"    
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: 150px;
+  grid-auto-rows: 150px;
+  border: 1px solid black;
+  padding: 10px;
 }
 
-.container div {
-  border: 1px solid green;
+div div {
+  border: 1px solid red;
 }
 
-.living-room {
-  grid-row-start: 1;
-  grid-row-end: 3;
+.box2 {
   grid-column-start: 1;
-  grid-column-end: 6;
-}
-
-.bathroom {
-  grid-row-start: 5;
-  grid-row-end: 6;
-  grid-column: 2/6;
-}
-
-.bedroom {
-  grid-row-start: 3;
-  grid-row-end: 5;
-  grid-column-start: 2;
-  grid-column-end: 4;
-}
-
-.kitchen {
-  grid-row-start: 3;
-  grid-row-end: 5;
-  grid-column-start: 4;
-  grid-column-end: 6;
-}
-
-.closet {
-  grid-row: 3/6;
-  grid-column: 1/2;
+  grid-row-start: 1;
 }
