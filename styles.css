@@ -13,10 +13,48 @@ body {
 .container {
   margin: 30px;
   display: grid;
-  grid-template-columns: 200px 200px 500px 200px;
-  grid-template-rows: 150px 300px;
+  grid-template: repeat(5, 80px) / repeat(5, 80px);
+  background-color: lightsalmon;
+  grid-template-areas:
+  "living-room living-room living-room living-room living-room"
+  "living-room living-room living-room living-room living-room"
+  "bedroom bedroom bathroom kitchen kitchen"
+  "bedroom bedroom bathroom kitchen kitchen"
+  "closet closet bathroom kitchen kitchen"    
 }
 
-.child {
+.container div {
   border: 1px solid green;
+}
+
+.living-room {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
+
+.bathroom {
+  grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column: 2/6;
+}
+
+.bedroom {
+  grid-row-start: 3;
+  grid-row-end: 5;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.kitchen {
+  grid-row-start: 3;
+  grid-row-end: 5;
+  grid-column-start: 4;
+  grid-column-end: 6;
+}
+
+.closet {
+  grid-row: 3/6;
+  grid-column: 1/2;
 }
