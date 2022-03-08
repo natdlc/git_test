@@ -715,7 +715,7 @@ Introduction to Grid
 
     Why was CSS Grid introduced?
     - to ease the process of creating two dimensional layouts
-
+            
     Which CSS layout module would you use to easily make equal sized items in a container?
     - grid
 
@@ -781,3 +781,14 @@ Advanced Grid properties
 
     What is the difference between auto-fit and auto-fill?
     - auto-fit adds implicit grid cells once it reaches the minimum size defined in the grid template, auto-fill covers the remaining space by extending the grid cell's size based on the screen size's adjustments
+
+Conclusion (Grid) 
+
+    When might you use Flexbox over Grid?
+    - when creating one dimensional layouts or the layout is focused on being flexible in terms of content (content-first design)
+
+    When might you use Grid over Flexbox?
+    - when utilizing both x and y axis on creating layouts or the layout is focused on being specific in placement of elements and contents (layout-first)
+
+    When might you use the two of these tools together?
+    - when creating layouts that require flexible contents inside of grid-placed elements
