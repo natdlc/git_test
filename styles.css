@@ -4,19 +4,11 @@
   box-sizing: border-box;
 }
 
-.wrapper {
-  border: 1px solid black;
-  margin: 15px;
-  display: flex;
-  gap: 15px;
-  font-size: 4rem;
-  flex-wrap: wrap;
-  height: 700px;
-  
+.body {
 }
 
-div div {
-  background-color: lightgreen;
-  height: 150px;
-  min-width: 0;
+.wrapper {
+  width: 90vmin;
+  margin: 0 auto;
+  border: 1px solid #000;
 }
