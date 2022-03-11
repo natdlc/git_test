@@ -792,3 +792,34 @@ Conclusion (Grid)
 
     When might you use the two of these tools together?
     - when creating layouts that require flexible contents inside of grid-placed elements
+
+Objects and Object Constructors
+
+    Write an object constructor and instantiate the object.
+    - 
+        function ObjConst (test) {
+            this.prop = test;
+        };
+        let instantiated = new ObjConst ('hello');
+
+    Describe what a prototype is and how it can be used.
+    - a prototype is a way for instantiated objects to inherit methods and properties from a parent (or more) constructor through inheritance. it also serves as a way for constructors to share a set of properties and methods via inheritance. it can be used via:
+        __proto__: constructor (not recommended)
+        SampleObject.prototype = new ConstructorObject();
+        SampleObject.prototype = Object.create(ConstructorObject.prototype);
+        SampleConstructor.prototype = new ConstructorObject();
+        SampleConstructor.prototype = Object.create(ConstructorObject.prototype);
+
+    Explain prototypal inheritance.
+    - a process where an object or constructor inherits properties and methods from a parent constructor (or grand-parent and higher)
+
+    Understand the basic do’s and don’t’s of prototypical inheritance.
+    - do's:
+        * use recommended method when inheriting a prototype (Object.create(sampleObj.prototype))
+        * identify when and where to read or write data in an object / constructor
+      dont's:
+        * use __proto__
+        * copy prototype instead of inherit, ie sampleObj.prototype = sampleConst.prototype
+
+    Explain what Object.create does
+    - creates a new object that allows it to inherit the properties and methods of the other existing object that is passed as an argument to object.create

@@ -21,47 +21,23 @@
 // let newBook = new Book(bookTitle, bookAuthor, bookPages, bookRead);
 // console.log(newBook.info());
 
-function Animal(name, type) {
-    this.name = name;
-    this.type = type;
-}
-
-Animal.prototype.greet = function () {
-    console.log(`I am ${this.name} and I am a ${this.type}.`)
-}
-
-function Human(name, age, type) {
+function Con1(name, age) {
     this.name = name;
     this.age = age;
-    this.type = type;
-    this.fromHuman = function () {console.log('from human')};
 }
 
-Human.prototype = new Animal();
+Con1.prototype.testFunc = function () {
+    return `${this.name} ${this.age}`;
+}
+Con1.prototype.testFunc2 = () => `${this.name} ${this.age} from testfunc2`;
 
-Human.prototype.hello = function (name) { 
-    return name;
-};
-
-let human1 = new Human('nate', 25, 'human');
-
-function Mammal(name, type) {
-    this.name = name;
-    this.type = type;
+function Con2(loc, zip) {
+    this.loc = loc;
+    this.zip = zip;
 }
 
-Mammal.prototype = new Human();
+Con2.prototype = new Con1();
 
-let mammal1 = new Mammal('bear', 'land mammal');
-
-let name11, name22;
-function setName (name1, name2) {
-   return [name1, name2] = setName.split(' ');
-}
-
-name11 = 'nat';
-name22 = 'nash';
-
-let newArr = [name11, name22];
-console.log(newArr);
-console.log(newArr.join(' ').split(' '));
+let Con3 = new Con2;
+Con3.newProp = 'hello';
+console.log(Con3)
