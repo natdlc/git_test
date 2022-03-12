@@ -1,16 +1,14 @@
-function testObj(fname, lname, age) {
-    let obj = Object.create(testObj.proto);
-    obj.firstName = fname;
-    obj.lastName = lname;
-    obj.ageCount = age;
-    return obj;
+let func1 = function (e) {
+    console.log(this);
+    console.log(e);
 }
 
-testObj.proto = {
-    getData: function(birthDate) {
-        return `My name is ${this.firstName} ${this.lastName}, I was born on ${birthDate} and I am ${this.ageCount} years old.`;
-    }
-}
+let child2 = document.querySelector('.child2');
+child2.addEventListener('click', func1);
 
-let o = testObj('nat', 'corpuz', 26);
-console.log(o.getData(1995));
+let links = document.querySelectorAll('li');
+for (let i = 0; i < links.length; i++) {
+    (function () {
+        console.log(this);
+    }).call(links[i]);
+}
