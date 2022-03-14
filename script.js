@@ -1,17 +1,13 @@
-const Person = (name) => {
-    const sayName = () => console.log(`my name is ${name}`);
-    return {sayName};
-  }
-  
-  const Nerd = (name) => {
-    // simply create a person and pull out the sayName function with destructuring assignment syntax!
-    const {sayName} = Person(name);
-    console.log({sayName});
-    const doSomethingNerdy = () => console.log('nerd stuff');
-    return {sayName, doSomethingNerdy};
-}
-  
-  const jeff = Nerd('jeff');
-  
-  jeff.doSomethingNerdy(); // nerd stuff
-  console.log(jeff);
+let Module = 
+  (function () {
+    let privFunc = function () {
+      console.log('I am private Function');
+    }
+    return {
+      publicMethod: () => `I am public Method!`,
+      callingPrivFunc: () => privFunc()
+    }
+  })();
+
+console.log(Module.publicMethod());
+Module.callingPrivFunc();
