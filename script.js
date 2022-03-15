@@ -1,8 +1,33 @@
-function doSomething() {}
-console.log( doSomething.prototype );
-//  It does not matter how you declare the function; a
-//  function in JavaScript will always have a default
-//  prototype property — with one exception: an arrow
-//  function doesn't have a default prototype property:
-const doSomethingFromArrowFunction = () => {};
-console.log(doSomethingFromArrowFunction.prototype);
+// const proto = {
+//     hello () {
+//         return `Hello, my name is ${ this.name }`;
+//     }
+// };
+  
+// const greeter = name => Object.assign(Object.create(proto), {name});
+
+// console.log(`greeter: `)
+// console.log(greeter);
+// console.log(typeof greeter);
+// console.log(`\n`)
+
+// console.log(`greeter('nat'): `)
+// console.log(greeter('nat'));
+// console.log(typeof greeter('nat'));
+// console.log(`\n`)
+
+// const george = greeter('george');
+
+// console.log(`george: `)
+// console.log(george)
+// console.log(typeof george);
+// console.log(`\n`)
+
+// const msg = george.hello();
+
+// console.log(msg);
+
+const factoryFunc = name => {return {name}};
+
+let newPerson = Object.create(factoryFunc('nat'));
+console.log(newPerson);
