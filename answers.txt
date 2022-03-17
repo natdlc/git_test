@@ -803,7 +803,7 @@ Objects and Object Constructors
         let instantiated = new ObjConst ('hello');
 
     Describe what a prototype is and how it can be used.
-    - a prototype is a way for instantiated objects to inherit methods and properties from a parent (or more) constructor through inheritance. it also serves as a way for constructors to share a set of properties and methods via inheritance. it can be used via:
+    - a prototype is a way for instantiated objects to inherit methods and properties from a parent (or more) constructor through inheritance. it can be used via:
         __proto__: constructor (not recommended)
         SampleObject.prototype = new ConstructorObject();
         SampleObject.prototype = Object.create(ConstructorObject.prototype);
@@ -822,4 +822,56 @@ Objects and Object Constructors
         * copy prototype instead of inherit, ie sampleObj.prototype = sampleConst.prototype
 
     Explain what Object.create does
-    - creates a new object that allows it to inherit the properties and methods of the other existing object that is passed as an argument to object.create
+    - creates a new object that allows it to inherit the properties and methods of the other existing object that is passed as an argument to object.create, methods and properties will be found in the prototype property
+
+Factory Functions and the Module pattern
+
+    Describe common bugs you might run into using constructors.
+    - since constructors are an attempt to make Javascript more familiar to veteran programmers who came from languages that utilized classes, there are a number of quick-fixes introduced in the syntax of Javascript to make sure this transition could be seamless. however, one such bug includes when forgetting to add the "new" keyword upon instantiating an object from a constructor, the properties of the constructor gets added to the global namespace instead. another bug is when instanceof is utilized, which are explained in https://tsherif.wordpress.com/2013/08/04/constructors-are-bad-for-javascript/
+
+    Write a factory method that returns an object.
+    - 
+        function factoryFunc (name) {
+            return {name};
+        }
+
+    Explain how scope works in JavaScript (bonus points if you can point out what ES6 changed!).
+    - scope is defines what variables are available in the execution context. es6 introduced block scope with the use of let and const declarations, as opposed to just var which is function scoped and ignores block codes.
+
+    Explain what Closure is and how it impacts private functions & variables.
+    - closure is a container attached to a scope, containing variables used from an outer scope for later use even when the outer scope is invoked. example:
+        function outerFunc () {
+            let count = 0;
+            function counter () {
+                count++;
+            }
+            return counter;
+        }
+
+        let startCounter = outerFunc();
+        startCounter();
+    - 
+        > the "outerFunc()" expression invokes the outerFunc function
+        > "count" is then declared in the local (outerFunc) scope
+        > outerFunc returns the function expression "counter" (returns the whole function expression itself that is uninvoked)
+        > in the global execution context, startCounter is declared
+        > the return value (function expression) of the invoked outerFunc function becomes the value of the startCounter variable
+        > along with the returned function expression, a closure (container or backpack) is created for the count variable found in the scope of "outerFunc" function as it is found in the counter function
+        > startCounter, now a function, is invoked with () >> startCounter();
+        > function (previously named "counter") is run, previous count variable is now accessible due to the closure, incrementing count from 0 to 1
+        > closure contains the new count variable with value of 1
+        > code ends
+        > if startCounter() is run again, the closure is again accessed with the previous value of count retained (number 1), and is incremented again from 1 to 2, changing the value of count again for later use.
+        > the count declared inside outerFunc is private, and can therefore be not accessed
+
+    Describe how private functions & variables are useful.
+    - private functions offer security to avoid outside manipulation. they also do not pollute the global namespace, and are very good for code readability and reusability
+
+    Use inheritance in objects using the factory pattern.
+    - 
+        
+
+
+Explain the module pattern.
+Describe IIFE. What does it stand for?
+Briefly explain namespacing and how it’s useful.
