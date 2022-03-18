@@ -869,9 +869,30 @@ Factory Functions and the Module pattern
 
     Use inheritance in objects using the factory pattern.
     - 
+        function factFunc1 () {
+            const method1 = () => `method 1`;
+            return {method1};
+        }
+        function factFunc2 () {
+            const method2 = () => `method 2`;
+            const {method1} = factFunc1();
+            return {method2, method1};
+        }
+
+        OR
+
+        function factFunc2 () {
+            const prototype = factFunc1();
+            const method2 = () => `method 2`;
+            return Object.assign({}, prototype, {method2});
+        }
         
+    Explain the module pattern.
+    - modules are variables containing an immeediately invoked function that returns an object with private and public variables and functions. instead of being a factory that can be run multiple times, this pattern wraps the factory in an IIFE.
 
+    Describe IIFE. What does it stand for?
+    - immediately invoked function expression is a tool used to immediately call an anonymous function inside (), like this:
+        const Module = (function () {})()
 
-Explain the module pattern.
-Describe IIFE. What does it stand for?
-Briefly explain namespacing and how it’s useful.
+    Briefly explain namespacing and how it’s useful.
+    - namespacing is when a variable is assigned an IIFE module, and all the corresponding variables and functions inside that module is contained only in that context, and returning only the public ones needed for use in the global context. this is useful for avoiding name collisions.
