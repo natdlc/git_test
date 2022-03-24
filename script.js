@@ -1,12 +1,21 @@
-function passMe (theFunc) {
-    return theFunc;
+class TestClass {
+    constructor(name) {
+        this.name = name;
+    }
 }
 
-function theOneFunc(name) {
-    return name;
+const obj1 = new TestClass('test1');
+const obj2 = new TestClass('test2');
+const objLib = {};
+
+const addNewBook = obj => {
+    objLib[`${obj.name}`] = obj;
+    console.log(objLib);
 }
 
-let passedFunc = passMe(theOneFunc);
-let myName = passedFunc('nat');
+addNewBook(obj1);
+addNewBook(obj2);
 
-console.log(myName);
+const deleteBook = obj => {
+    
+}

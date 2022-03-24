@@ -896,3 +896,39 @@ Factory Functions and the Module pattern
 
     Briefly explain namespacing and how it’s useful.
     - namespacing is when a variable is assigned an IIFE module, and all the corresponding variables and functions inside that module is contained only in that context, and returning only the public ones needed for use in the global context. this is useful for avoiding name collisions.
+
+classes
+
+    Describe the pros and cons of using classes in JavaScript.
+    -   pros:
+            optional to use
+            better-looking syntax
+        cons:
+            classes are just objects
+            classes are brittle
+            declines the use of functional programming
+
+    Briefly discuss how JavaScript’s object creation differs from a language like Java or Ruby.
+    - objects can just show up immediately in javascript unlike java that needs a class blueprint before an object is instantiated
+
+    Explain the differences between using a class to define a constructor and other prototype methods.
+    - classes must be defined before they are constructed
+    - body of a class is executed in strict mode
+    - a constructor can use the super keyword to call the constructor of the super class
+
+    Explain what “getters” & “setters” are.
+    - getters will return a reference to the original value of the property
+    - setters will return a mutated value of the property
+
+    Understand what computed names and class fields are.
+    - computed names allow for methods to have variable names
+    - class fields adds any properties to a class
+
+    Describe function binding.
+    - tracking the context of "this" keyword
+
+    Be able to use inheritance with classes.
+    - using "super" keyword
+
+    Briefly talk about the conflict in JS with functional programming and classes.
+    - functional programming removes the brittleness of classes and maximizes the use of the prototypal features of Javascript, while classes adds readability and helps those coming from other languages that have classes be more familiar with javascript syntax
