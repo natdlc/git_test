@@ -1,0 +1,12 @@
+.hello {
+    color: red;
+    background: url('./settings.svg');
+    background-repeat: no-repeat;
+    height: 100px;
+};
+
+.hello img {
+    display: block;
+    height: 100px;
+}
+
