@@ -932,3 +932,39 @@ classes
 
     Briefly talk about the conflict in JS with functional programming and classes.
     - functional programming removes the brittleness of classes and maximizes the use of the prototypal features of Javascript, while classes adds readability and helps those coming from other languages that have classes be more familiar with javascript syntax
+
+ES6 modules
+
+    Explain what npm is and where it was commonly used before being adopted on the frontend.
+    - npm is a tool that automates downloading libraries and their updates from a central repository, and they were commonly used in backend
+
+    Describe what npm init does and what package.json is.
+    - npm init creates a package.json file which is a configuration file that npm uses to save all project information
+
+    Know how to install packages using npm.
+    - npm init
+    - npm install >>package-name-here<< --save
+
+    Describe what a JavaScript module bundler like webpack is.
+    - module bundlers allow the browser to know where to find the imported code from libraries
+
+    Explain what the concepts “entry” and “output” mean as relates to webpack.
+    - entry is where the module bundler will begin bundling dependencies from, output is where the bundle will be emitted
+
+    Briefly explain what a development dependency is.
+    - dependency describes the relationship of a library to the project's source code when it is consumed through requiring or importing. it is called development dependency if the library used is mainly for development purposes like babel plugins, presets, test runners
+
+    Explain what “transpiling code” means and how it relates to frontend development.
+    - transpiling code means converting the code in one language to code in another similar language
+
+    Briefly describe what a task runner is and how it’s used in frontend development.
+    - task runners help with automation of different parts of the build process. for frontend, these include minifying code, optimizing images, running tests, and more
+
+    Describe how to write an npm automation script.
+    - https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html#using-a-task-runner-(npm-scripts)
+
+    Explain one of the main benefits of writing code in modules.
+    - reusability, easier to organize code, gives more flexibility in the pattern you want to code in (sync or async), avoids bloating of code, can improve loading speeds
+
+    Explain “named exports” and “default exports”.
+    - named exports are usable code with named variables imported from modules usually for multiple functions, default exports are for running single function or variable modules.
