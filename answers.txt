@@ -968,3 +968,20 @@ ES6 modules
 
     Explain “named exports” and “default exports”.
     - named exports are usable code with named variables imported from modules usually for multiple functions, default exports are for running single function or variable modules.
+
+Webpack
+
+    How do you load CSS using webpack?
+    - https://webpack.js.org/guides/asset-management/#loading-css
+
+    How do you load images using webpack?
+    - https://webpack.js.org/guides/asset-management/#loading-images
+
+    How do you load fonts using webpack?
+    - https://webpack.js.org/guides/asset-management/#loading-fonts
+
+    How do you load data using webpack?
+    - https://webpack.js.org/guides/asset-management/#loading-data
+    
+    How would you track errors in bundled source code?
+    - https://webpack.js.org/guides/development/#using-source-maps
