@@ -985,3 +985,25 @@ Webpack
     
     How would you track errors in bundled source code?
     - https://webpack.js.org/guides/development/#using-source-maps
+
+OOP principles
+
+    Explain the “Single Responsibility Principle”.
+    - Gather together things that change for the same reason, separate those that change for different reasons.
+
+    Briefly explain the additional SOLID principles.
+    - Open Closed
+        - code must be open for extension but closed for modification
+
+    - Liskov Substitution
+        - all properties and methods of the super class should be available to the derived classes 
+
+    - Interface Segregation
+        - there should be no unused properties or methods in the class of all instantiated objects 
+
+    - Dependency Inversion
+        - there should always be a mediator to any library or packages being used
+
+    Explain what “tightly coupled” objects are and why we want to avoid them.
+    - objects or classes are tightly coupled when they depend on each other, which means that when you make a change on a class or object, it directly impacts the others.
+    - we want to avoid them and make the code loose for reusability and maintenance 
