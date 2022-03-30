@@ -2,56 +2,172 @@
 
 * {
   font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  font-weight: 200;
+  color: black;
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
-}
-
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  box-shadow: 0 3px 6px rgb(0,0,0,0.4);
-  flex-basis: 50%;
-  min-height: 90%;
-}
-
-.title-box {
-  padding: 30px;
-  background-color: rgb(77, 116, 81);
-  color: white;
 }
 
 h1 {
   font-size: 32px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
 }
 
-.list-box {
+h2 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+header {
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
   padding: 30px;
+  background-color: rgb(177, 218, 177);
+}
+
+input[type="date"] {
+  background-color: rgb(177, 218, 177);
+  font-weight: 600;
+  font-size: 16px;
+  padding: 5px;
+  border: 1px solid black;
+  appearance: none;
+  border-radius: 10px;
+  text-rendering: none;
+}
+
+main {
+  display: flex;
+  height: 90%;
+  width: 100%;
+}
+
+/* sidebar */
+.sidebar {
   display: flex;
   flex-direction: column;
-  gap: 30px;
-  border-bottom: 1px solid green;
+  padding: 30px 60px 0 60px;
+  border-right: 1px solid green;
+  height: 100%;
+  gap: 10px;
 }
 
-.card {
+.sidebar-wrappers {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sidebar-wrappers img {
+  width: 24px;
+}
+
+.add-list-btn {
+  align-self: center;
+  width: 60px;
+  height: 60px;
+  font-size: 40px;
+}
+
+/* main lists */
+.lists-wrapper {
+  padding: 30px;
+  background-color: lightcyan;
+  width: 100%;
+}
+
+.list-header {
   display: flex;
   align-items: center;
   gap: 15px;
-  justify-content: space-between;
 }
 
-.card p {
-  font-size: 12px;
+button {
+  background: none;
+  border: none;
+  width: 30px;
+  height: 30px;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 50%;
 }
 
-.card * {
-  border: 1px solid black;
+button:hover {
+  background: lightgreen;
+  color: black;
 }
 
-.text-box {
-  flex: 1;
+.sublist-wrapper {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  position: relative;
+}
+
+.list-checkmark {
+  border: 1px solid gray;
+  border-radius: 50%;
+  color: lightcyan;
+}
+
+.list-checkmark:hover {
+  color: black;
+  background: none;
+}
+
+.sublist-checkmark {
+  width: 24px;
+  height: 24px;
+  font-size: 20px;
+}
+
+.sublist {
+  padding: 5px;
+  width: 30%;
+  border: none;
+  background: none;
+  border-bottom: 1px solid black;
+  color: black;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.sublist[contenteditable]:empty::before {
+  font-weight: 100;
+  color: black;
+}
+
+.sublist-desc[contenteditable]:empty::before {
+  content: 'Click to add or edit sublist';
+}
+
+.sublist-time {
+  width: 5%;
+}
+
+.sublist-time[contenteditable]:empty::before {
+  content: '8:00 PM';
+}
+
+.sublist-duration {
+  width: 5%;
+}
+
+.sublist-duration[contenteditable]:empty::before {
+  content: '1h 30m';
+}
+
+.sublist-wrapper > *:last-child {
+  font-size: 16px;
 }
