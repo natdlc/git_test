@@ -10,35 +10,45 @@
   <script defer src="./script.js"></script>
 </head>
 <body>
+
   <header>
     <h1 class="title">Lista</h1>
     <input type="date">
 
   </header>
+
   <main>
+
     <div class="sidebar">
+
       <div class="today-wrapper sidebar-wrappers">
         <img src="./today_black_48dp.svg" alt="">
         <h2>Today</h2>
       </div>
+
       <div class="tom-wrapper sidebar-wrappers">
         <img src="./today_black_48dp.svg" alt="">
         <h2>Tomorrow</h2>
       </div>
+
       <button class="add-list-btn">+</button>
+
     </div>
+
     <div class="lists-wrapper">
-      <div class="list-header">
-        <button class="list-checkmark">&#10004;</button>
-        <h1>List Title</h1>
-        <button class="add-sublist-btn addBtn">+</button>
-      </div>
-      <div class="sublist-wrapper">
-        <button class="sublist-checkmark list-checkmark">&#10004;</button>
-        <p class="sublist sublist-desc" contenteditable role="textbox"></p>
-        <p class="sublist sublist-time" contenteditable role="textbox"></p>
-        <p class="sublist sublist-duration" contenteditable role="textbox"></p>
-        <button>&#10060;</button>
+      <div class="list">
+        <div class="list-header">
+          <button class="list-checkmark">&#10004;</button>
+          <h1 contenteditable>List Title</h1>
+          <button class="add-sublist-btn addBtn">+</button>
+        </div>
+        <div class="sublist-wrapper">
+          <button class="sublist-checkmark list-checkmark">&#10004;</button>
+          <p class="sublist sublist-desc" contenteditable role="textbox"></p>
+          <p class="sublist sublist-time" contenteditable role="textbox"></p>
+          <p class="sublist sublist-duration" contenteditable role="textbox"></p>
+          <button>&#10060;</button>
+        </div>
       </div>
     </div>
   </main>

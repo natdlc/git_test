@@ -27,15 +27,15 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 30px;
-  background-color: rgb(177, 218, 177);
+  background-color: rgb(211, 255, 211);
 }
 
 input[type="date"] {
-  background-color: rgb(177, 218, 177);
+  background-color: rgb(211, 255, 211);
   font-weight: 600;
   font-size: 16px;
   padding: 5px;
-  border: 1px solid black;
+  border: 1px solid rgb(211, 255, 211);
   appearance: none;
   border-radius: 10px;
   text-rendering: none;
@@ -52,7 +52,6 @@ main {
   display: flex;
   flex-direction: column;
   padding: 30px 60px 0 60px;
-  border-right: 1px solid green;
   height: 100%;
   gap: 10px;
 }
@@ -132,6 +131,8 @@ button:hover {
   font-size: 20px;
 }
 
+
+
 .sublist {
   padding: 5px;
   width: 30%;
@@ -171,3 +172,12 @@ button:hover {
 .sublist-wrapper > *:last-child {
   font-size: 16px;
 }
+
+.list-header h1[contenteditable] {
+  color: black;
+}
+
+.list-header h1[contenteditable]:empty::before {
+  content: 'Click to add or edit list';
+  color: gray;
+};
