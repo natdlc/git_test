@@ -1,17 +1,20 @@
-const circle = (radius) => {
-    const proto = { 
-      type: 'Circle',
-      //code 
-    }
-    return Object.assign(Object.create(proto), {radius})
-  }
-  const square = (length) => {
-    const proto = { 
-      type: 'Square',
-      //code 
-    }
-    return Object.assign(Object.create(proto), {length})
-  }
+const btn = document.querySelector('button');
+const input = document.getElementById('name');
+const updateStorage = e => {
+  const nameVal = input.value;
+  localStorage.setItem('nameVal', nameVal)
+  console.log(localStorage);
+  insertNameToDom(localStorage.getItem('nameVal'));
+};
 
-  const newCircle = circle(5);
-  console.log(newCircle);
+const insertNameToDom = nameValue => {
+  const name = document.createElement('h1');
+  name.innerText = nameValue;
+  document.body.appendChild(name);
+}
+
+btn.addEventListener('click', updateStorage);
+
+/* -=-=-=-=-=-=-=-=-=-=-=- */
+
+console.log(localStorage);
