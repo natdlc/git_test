@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const btn = document.querySelector('button');
 const input = document.getElementById('name');
 const updateStorage = e => {
@@ -18,3 +19,5 @@ btn.addEventListener('click', updateStorage);
 /* -=-=-=-=-=-=-=-=-=-=-=- */
 
 console.log(localStorage);
+=======
+>>>>>>> cb9a6bdb2106e8767ccb9bb0e16797e0dfb0adae
