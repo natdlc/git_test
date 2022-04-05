@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const btn = document.querySelector('button');
 const input = document.getElementById('name');
 const updateStorage = e => {
@@ -17,7 +16,14 @@ const insertNameToDom = nameValue => {
 btn.addEventListener('click', updateStorage);
 
 /* -=-=-=-=-=-=-=-=-=-=-=- */
+const newFunction = () => {
+  return 'test';
+}
+
+localStorage.setItem('newFunc', newFunction);
+
+const gettingFunc = localStorage.getItem('newFunc');
+console.log(gettingFunc);
+console.log(typeof gettingFunc);
 
 console.log(localStorage);
-=======
->>>>>>> cb9a6bdb2106e8767ccb9bb0e16797e0dfb0adae
