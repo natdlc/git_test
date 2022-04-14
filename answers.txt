@@ -1017,4 +1017,4 @@ Linting
     - avoids bugs, makes code better, time saver
 
     Why should you use prettier?
-    - prettier is used to make sure the code is clean althroughout
+    - prettier is used to make sure the code formatted upon saving
