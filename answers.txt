@@ -1007,3 +1007,14 @@ OOP principles
     Explain what “tightly coupled” objects are and why we want to avoid them.
     - objects or classes are tightly coupled when they depend on each other, which means that when you make a change on a class or object, it directly impacts the others.
     - we want to avoid them and make the code loose for reusability and maintenance 
+
+Linting
+
+    What is linting?
+    - linting is using a code tool that looks at code and automatically finds errors and mistakes
+
+    Which problems can linting prevent?
+    - avoids bugs, makes code better, time saver
+
+    Why should you use prettier?
+    - prettier is used to make sure the code is clean althroughout
