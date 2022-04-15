@@ -1,5 +1,23 @@
-/* .col {
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
   display: flex;
-  align-items: center;
   justify-content: center;
-} */
+  padding: 2rem;
+}
+
+div {
+  background: lightblue;
+  width: 100px;
+  height: 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}

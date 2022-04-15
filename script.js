@@ -1,3 +1,12 @@
-const test = 1;
+const log = i => console.log(i);
+const dir = i => console.dir(i);
 
-console.log('hey');
+const div = document.querySelector('div');
+
+log(div);
+dir(div);
+
+div.addEventListener('click', (e) => {
+    log(e);
+    e.target.style = 'transform: translate(50px)';
+});
