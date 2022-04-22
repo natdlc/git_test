@@ -3,21 +3,78 @@
   margin: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  list-style: none;
 }
 
-body {
-  display: flex;
-  justify-content: center;
-  padding: 2rem;
+
+nav {
+  background-color: lightgray;
+  padding: 10px;
+  position: relative;
 }
 
-div {
-  background: lightblue;
-  width: 100px;
-  height: 100px;
-  color: white;
+.burger {
+  position: relative;
+  width: 40px;
+  height: 40px;
   display: flex;
-  justify-content: center;
+  flex-flow: column;
   align-items: center;
-  font-size: 2rem;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  background-color: gray;
+}
+
+.line1, .line2 {
+  height: 3px;
+  width: 30px;
+  background-color: black;
+}
+
+.menu1, .menu2 {
+  height: 0;
+  animation: decrease-height 0.5s forwards;
+}
+
+li {
+  opacity: 0;
+}
+
+.menu1.active, .menu2.active {
+  animation: increase-height 0.5s forwards;
+}
+
+.menu1.active li, .menu2.active li {
+  animation: reappear 0.7s forwards;
+}
+
+@keyframes reappear {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes increase-height {
+  0% {
+    height: 0;
+  }
+
+  100% {
+    height: 100px;
+  }
+}
+
+@keyframes decrease-height {
+  0% {
+    height: 100px;
+  }
+
+  100% {
+    height: 0;
+  }
 }
