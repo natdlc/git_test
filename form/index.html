@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Form validation</title>
+		<link rel="stylesheet" href="./index.css" />
+		<script defer src="./index.js"></script>
+		<script
+			defer
+			src="https://kit.fontawesome.com/0e52dfb6d8.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<form action="/form/" method="get" novalidate>
+			<legend>Sign Up</legend>
+			<div class="control">
+				<input
+					class="email"
+					maxlength="50"
+					type="email"
+					placeholder="Email"
+					required
+				/>
+				<p class="error">error message</p>
+			</div>
+			<div class="control">
+				<input
+					class="country"
+					maxlength="50"
+					minlength="4"
+					;
+					type="text"
+					placeholder="Country"
+					required
+				/>
+				<p class="error">error message</p>
+			</div>
+			<div class="control">
+				<input
+					class="zip"
+					maxlength="10"
+					type="text"
+					pattern="[0-9]+"
+					placeholder="Zip Code"
+					required
+				/>
+				<p class="error">error message</p>
+			</div>
+			<div class="control">
+				<input
+					class="password"
+					type="password"
+					placeholder="Enter Password"
+					minlength="7"
+					maxlength="30"
+					required
+				/>
+				<p class="error">error message</p>
+			</div>
+			<div class="control">
+				<input
+					class="confirm-password"
+					type="password"
+					placeholder="Confirm Password"
+					required
+				/>
+				<p class="error">error message</p>
+			</div>
+			<button type="submit">Submit</button>
+		</form>
+	</body>
+</html>

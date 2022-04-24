@@ -1,0 +1,88 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input, button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem;
+    background-color: lightgray;
+    border-radius: 15px;
+}
+
+legend {
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 0.3rem;
+    border-radius: 5px;
+    position: relative;
+    display: block;
+}
+
+button {
+    width: 30%;
+    padding: 0.5rem 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: white;
+    text-transform: uppercase;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.control {position: relative;}
+
+.control::before {
+    position: absolute;
+    content: '*';
+    top: 5px;
+    right: 5px;
+    z-index: 1;
+    color: red;
+    font-weight: 900;
+}
+
+input:focus {
+    border: 1px solid blue;
+}
+
+input:focus:valid {
+    border: 1px solid green;
+}
+
+input:valid {
+    border: 1px solid green;
+}
+
+.error {
+    position: absolute;
+    font-size: 0.8rem;
+    color: red;
+    display: none;
+}

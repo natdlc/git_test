@@ -1029,3 +1029,20 @@ Dynamic User Interface Interaction
 
     What are the downsides of hamburger menus?
     - low discoverability and efficiency https://marvelapp.com/blog/hamburger-menu-alternatives-mobile-navigation/
+
+Form Validation with Javascript 
+
+    Understand the importance of validating HTML forms before submitting them to a server.
+    - making sure that form values are sanitized will help with the backend processing of data, as well as improve user experience.
+
+    Describe the two types of client-side form validation, built-in form validation and validation using JavaScript.
+    - built in form validation uses the HTML5's api to display messages relating to values of form controls, while validation using javascript utilizes javascript api and offers a more customizable option than the former.
+
+    Understand JavaScript Constraint Validation API provides more control and customization of form validation.
+    - javascript allows developers to display customized messages to users for form validation.
+
+    Use JavaScript to write custom error messages and add custom styling to the errors.
+    - this is done through pseudo classes and customized HTML elements for displaying custom error messages.
+
+    Understand forms can also be validated without using Constraint Validation API, which is useful in certain cases.
+    - forms validated using HTML5 offers a clean and built-in feature for displaying validation messages.
