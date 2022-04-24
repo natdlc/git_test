@@ -47,6 +47,9 @@ img {
   border: none;
   padding: 1rem;
   cursor: pointer;
+  height: 100%;
+  color: white;
+  background: rgb(0,0,0,0.4);
 }
 
 .right:hover, .left:hover {background-color: lightgray;}
