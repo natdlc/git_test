@@ -1045,4 +1045,4 @@ Form Validation with Javascript
     - this is done through pseudo classes and customized HTML elements for displaying custom error messages.
 
     Understand forms can also be validated without using Constraint Validation API, which is useful in certain cases.
-    - forms validated using HTML5 offers a clean and built-in feature for displaying validation messages.
+    - forms validated using HTML5 offers a clean and built-in feature for displaying validation messages. 
