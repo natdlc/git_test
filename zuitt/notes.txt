@@ -1,0 +1,65 @@
+MongoDB
+
+    database:
+        organized collection of data or info
+        data != info
+        data = raw (unorganized)
+        info = organized data
+
+    databases
+        refers to info stored in a computer system
+
+        can also refer to physical databases
+            sample: 
+                library: database of books
+
+    DBMS
+        DBMS of library = Dewey Decimal System
+
+    DB systems
+        create (insert)
+        read (select)
+        update
+        delete
+        ^ called: CRUD operations
+
+    Relational database (structured data)
+        type of database
+        data stored as set of tables with rows and columns
+
+    for unstructured data
+        NoSQL databases commonly used
+
+    SQL
+        Structured Query Language
+        typical in relational dbms to store retrieve and modify data
+
+    SQL info
+        done in form of tables
+        have columns and rows that provide info about data
+
+    SQL databases
+        requires columns and tables
+
+    NoSQL
+        Not only SQL
+        conceptualized when capturing complex, unstructured data became more difficult
+        MongoDB = NoSQL databases
+
+    MongoDB
+        open source database
+        leading NoSQL database
+        highly expressive language
+        generally friendly to those familiar with JSON structure
+
+    Mongo in MongoDB
+        Mongo = huMONGOus
+
+    Advantage of MongoDB
+        JSON format
+
+    MongoDB (nosql) diff from relat db (sql)
+        from tables to COLLECTIONS
+        from rows to DOCUMENTS
+        from columns to FIELDS
+
